@@ -99,7 +99,7 @@ const deleteStation = asyncHandler(async (req, res) => {
   const station = await Station.findById(req.params.id);
 
   if (station) {
-    await station.remove();
+    await station.deleteOne();
     res.json({ message: "Station Removed" });
   } else {
     res.status(404);
