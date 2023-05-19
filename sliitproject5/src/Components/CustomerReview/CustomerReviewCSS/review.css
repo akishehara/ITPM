@@ -1,0 +1,94 @@
+.main-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.topic-review {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.head-review {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4267B2;
+}
+
+.labelHead-review {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1d2129;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #4267B2;
+}
+
+button.Add {
+    background-color: #4267B2;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button.Add:hover {
+    background-color: #314c86;
+}
+
+.card-review {
+    border: 1px solid rgb(155, 220, 250);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+.item-desc-review-name, .item-desc-review {
+    display: block;
+  }
+  .item-desc-review-name{
+    color: blueviolet;
+  }
+  .item-desc-review{
+    color: #4267B2;
+  }
+
+  .name-review{
+    margin-left: 200px;
+    
+  }
+  .star-review{
+    margin-left: 400px;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  .card-container-review{
+    display:flex;
+  }
+  .btnUpdate{
+    margin-right: 10px;
+  }
