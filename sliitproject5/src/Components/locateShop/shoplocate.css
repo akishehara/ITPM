@@ -1,0 +1,28 @@
+/* CSS for the table */
+.table-div-near-me {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .table-near-me td, .table-near-me th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .table-near-me tr:nth-child(even){background-color: #f2f2f2;}
+  .table-near-me tr:hover {background-color: #ddd;}
+  .table-near-me th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .name-company {
+    width: 30%;
+  }
+  .shop-near-me-head {
+    text-align: center;
+    margin: 20px 0;
+    color: azure;
+  }
