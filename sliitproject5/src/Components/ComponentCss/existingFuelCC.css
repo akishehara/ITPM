@@ -1,0 +1,63 @@
+/* Styles for the main container */
+.main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f37070;
+  background-image: url('/src/Assests/main_back.jpg');
+  font-family: Arial, sans-serif;
+}
+
+
+/* Styles for the table */
+.tableMain {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0ebeb;
+  opacity: 0.8;
+}
+
+/* Styles for the table header */
+.tableHead {
+  background-color: #0077B6;
+  color: #d43737;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Styles for the table row */
+.tableRow {
+  border-top: 1px solid #630808;
+  transition: background-color 0.3s ease;
+}
+
+/* Styles for the table cells */
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+}
+.table-shop-td-name{
+  color: #f5eeee;
+}
+
+/* Styles for even table rows */
+.tableRow:nth-child(even) {
+  background-color: #2aa3ac;
+}
+
+/* Styles for odd table rows */
+.tableRow:nth-child(odd) {
+  background-color: #338792;
+}
+
+/* Styles for hover effect on table rows */
+.tableRow:hover {
+  background-color: #8b2222;
+  cursor: pointer;
+}
+.pdf-download{
+  margin-top: 10px;
+}

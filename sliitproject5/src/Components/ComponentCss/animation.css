@@ -1,0 +1,7 @@
+.div-main-animation{
+    background-image: url('/src/Assests/men_back_shop.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}

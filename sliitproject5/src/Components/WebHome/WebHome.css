@@ -1,0 +1,38 @@
+.WebHome {
+    background-image: url('/src/Assests/used-cars-art.jpg');
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.bg-map {
+    background-image: url('/src/Assests/map.png');
+    width:100%;
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.main-current-loc{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f37070;
+    background-image: url('/src/Assests/form_locate.jpg');
+    font-family: Arial, sans-serif;
+  }
+.bg-image{
+    background-image: url('/src/Assests/comparison_back.jpg');
+    background-size: 1600px 2000px;
+    width: 1600px;
+    height: 1600px;
+    background-repeat: no-repeat;
+}
+.div-main-service{
+    background-image: url('/src/Assests/service Back.JPG');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1600px;
+    background-repeat: no-repeat;
+}

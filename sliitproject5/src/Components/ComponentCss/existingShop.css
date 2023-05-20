@@ -1,0 +1,102 @@
+.item-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-desc {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.button {
+  background-color: #4267b2; /* Facebook Blue */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #3a5a98;
+}
+
+.iconLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-img-logo{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.shop_name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+}
+.shop-main-div{
+  position: relative; /* set position to relative to enable absolute positioning for pseudo-element */
+  background-image: url('/src/Assests/brown.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: max-content;
+}
+.shop-main-table{
+  background-color: rgb(22, 20, 20);
+  opacity: 0.9;
+}
+
+
+
+
+.table-shop-td-name{
+  color: aqua;
+  font-size: 24px;
+  font-weight: 800;
+}
