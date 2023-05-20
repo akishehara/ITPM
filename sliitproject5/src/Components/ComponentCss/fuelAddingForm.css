@@ -1,0 +1,95 @@
+.main {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topic {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select:focus,
+input[type="text"]:focus {
+  border-color: #66afe9;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.already {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.text {
+  margin-right: 10px;
+}
+
+a {
+  color: #007bff;
+}
+
+.signup {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  background-color: #0069d9;
+}
+
+.AddStation {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.AddStation:hover {
+  background-color: #0069d9;
+}
+
+.head {
+  color: #fff;
+  font-variant: small-caps;
+}
+
+.labelHead {
+  color: aliceblue;
+  font-variant: small-caps;
+}

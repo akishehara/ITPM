@@ -1,0 +1,231 @@
+/* Body styling */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main container styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Topic styling */
+.topic {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Form container styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Form input styling */
+.form div {
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-size: 18px;
+  color: #333;
+}
+
+.FormControl {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Email label styling */
+.emaillabel {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Signup button styling */
+.signup {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.signup:hover {
+  background-color: #0077b6;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+/* Already signed up message styling */
+.already {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.text {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* Link styling */
+a {
+  color: #f0f3f7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Radio buttons styling */
+.radiobuttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.radiobuttons div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radiobuttons input[type="radio"] {
+  margin-right: 10px;
+}
+
+.radiobuttons label {
+  font-size: 18px;
+  color: #333;
+}
+
+.main-form-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../BatteryCompare/battry\ picsx/background.gif');
+}
+
+.form-form-shop {
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-form-shop {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+label,
+input,
+select {
+  font-family: 'Roboto Slab', serif;
+}
+
+input[type="email"],
+select,
+button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"]:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(29, 185, 84, 0.5);
+}
+
+button {
+  background-color: #1DB954;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #191414;
+}
+
+label[for="dropdown"],
+label[for="image"] {
+  position: relative;
+}
+
+label[for="dropdown"]::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+label[for="image"]::before {
+  content: "\1F4F7";
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+:root {
+  --primary-color: #1DB954;
+  --secondary-color: #191414;
+  --text-color: #fff;
+}
+
+.create-shop-title-form-shop {
+  color: #f9fbfd;
+  margin-bottom: 40px;
+}
+
+.labelHead-form-shop {
+  color: #f9fbfd;
+  color-interpolation-filters: calc();
+}

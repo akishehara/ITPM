@@ -1,0 +1,102 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  th {
+    background-color: #f2f2f2;
+    
+  }
+  .tableMain-ccfuel {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tableHead-ccfuel {
+    background-color: #ddd;
+    opacity: 0.5;
+  }
+  
+  .tableRow-ccfuel {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    
+  }
+  
+  .tableRow-ccfuel:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .tableMain-ccfuel th,
+  .tableMain-ccfuel td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableMain-ccfuel th:first-child,
+  .tableMain-ccfuel td:first-child {
+    padding-left: 16px;
+  }
+  
+  .tableMain-ccfuel th:last-child,
+  .tableMain-ccfuel td:last-child {
+    padding-right: 16px;
+  }
+  
+  .main-ccfuel button {
+    background-color: #008CBA;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
+  .main-ccfuel button:hover {
+    background-color: #006d87;
+  }
+  .tablePDF{
+    background-color: #006d87;
+  }
+  .table-div-near-me {
+    background-color: #57dff1;
+    padding: 20px;
+  }
+  
+  .table-near-me {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .table-head-me {
+    background-color: #3be5eb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .table-row-me {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-near-me th,
+  .table-near-me td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table-near-me th {
+    font-weight: bold;
+  }
+  
